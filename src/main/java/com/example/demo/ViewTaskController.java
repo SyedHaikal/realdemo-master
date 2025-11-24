@@ -197,7 +197,7 @@ public class ViewTaskController {
 
             Stage stage = new Stage();
             stage.setTitle("Edit Task");
-            stage.setScene(new Scene(root));
+            stage.setScene(new Scene(root, 1280, 720));
             stage.show();
 
             ((Stage) table.getScene().getWindow()).close();
